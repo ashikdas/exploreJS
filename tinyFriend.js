@@ -1,7 +1,7 @@
 function tinyFriend(friends){
     var tiny = friends[0];
     for (var i= 0; i< friends.length; i++){
-        if(tiny.length > friends[i].length){
+        if(tiny.length > friends[i].length && friends[i] != ""){
             tiny = friends[i];
         }
     }
